@@ -1,0 +1,11 @@
+<ul class="navbar-nav m-auto navigation">
+    {% for page in pages.children.visible %}
+        {% set current_page = (page.active or page.activeChild) ? 'active' : '' %}
+        <li class="nav-item {{ current_page }}">
+            <a class="nav-link" href="{{ page.url }}">
+                {% if page.header.icon %}<i class="fa fa-{{ page.header.icon }}"></i>{% endif %}
+                {{ page.menu }}
+            </a>
+        </li>
+    {% endfor %}
+</ul>

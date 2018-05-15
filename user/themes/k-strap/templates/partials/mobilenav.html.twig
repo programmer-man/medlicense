@@ -5,7 +5,7 @@
             <a class="nav-link {% if p.children.visible.count > 0 %}submenu mobile-expand{% endif %}" href="{{ p.url }}">
                 {% if p.header.icon %}<i class="fa fa-{{ p.header.icon }}"></i>{% endif %}
                 {{ p.menu }}
-                {% if p.children.visible.count > 0 %}<i class="fa fa-plus-circle"></i>{% endif %}
+                {% if p.children.visible.count > 0 %}<i class="fa fa-plus-circle pull-right"></i>{% endif %}
             </a>
             {% if p.children.visible.count > 0 %}
                 <ul class="submenu-menu">

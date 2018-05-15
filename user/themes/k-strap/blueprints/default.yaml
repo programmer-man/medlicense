@@ -1,0 +1,28 @@
+title: Sidebar
+'@extends':
+    type: default
+    context: blueprints://pages
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+
+      fields:
+        content:
+
+          fields:
+            header.sidebar:
+              type: list
+              label: Sidebar Content
+              style: vertical
+              fields:
+                .route:
+                  type: select
+                  label: Select a Partial
+                  options:
+                    /_partials/_three-easy-steps: 'Three Easy Steps'
+                    /_partials/_state-licensure-requirements: 'State Licensure Requirements'
+                    /_partials/_state-medical-board-links: 'State Medical Board Links'
+                    /_partials/_wise-words: 'Wise Words'

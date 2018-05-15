@@ -1,0 +1,55 @@
+title: Feature Boxes
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+
+      fields:
+        content:
+          type: tab
+          title: Feature Box Content
+
+          fields:
+
+            columns:
+              type: columns
+              fields:
+
+                column1:
+                  type: column
+                  fields:
+
+                    header.name1:
+                      type: text
+                      label: Title
+
+                    header.url1:
+                      type: text
+                      label: URL
+
+                column2:
+                  type: column
+                  fields:
+
+                    header.name2:
+                      type: text
+                      label: Title
+
+                    header.url2:
+                      type: text
+                      label: URL
+
+                column3:
+                  type: column
+                  fields:
+
+                    header.name3:
+                      type: text
+                      label: Title
+
+                    header.url3:
+                      type: text
+                      label: URL
+

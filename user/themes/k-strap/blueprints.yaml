@@ -3,13 +3,13 @@ version: 0.1.0
 description: Custom Bootstrap Teheme developed by KMA specifically for Medlicense.com.
 icon: rebel
 author:
-  name: Bryan Baird
+  name: programmer-man
   email: bryan@kerigan.com
-homepage: https://github.com/bryan-baird/grav-theme-k-strap
+homepage: https://github.com/programmer-man/grav-theme-k-strap
 demo: http://demo.yoursite.com
 keywords: grav, theme, etc
-bugs: https://github.com/bryan-baird/grav-theme-k-strap/issues
-readme: https://github.com/bryan-baird/grav-theme-k-strap/blob/develop/README.md
+bugs: https://github.com/programmer-man/grav-theme-k-strap/issues
+readme: https://github.com/programmer-man/grav-theme-k-strap/blob/develop/README.md
 license: MIT
 
 form:

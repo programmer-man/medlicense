@@ -17,7 +17,7 @@ languages:
   override_locale: false
 home:
   alias: /home
-  hide_in_urls: false
+  hide_in_urls: true
 pages:
   theme: k-strap
   order:
@@ -33,7 +33,7 @@ pages:
   process:
     markdown: true
     twig: false
-  twig_first: false
+  twig_first: true
   never_cache_twig: false
   events:
     page: true
@@ -59,7 +59,7 @@ pages:
   etag: false
   vary_accept_encoding: false
   redirect_default_route: false
-  redirect_default_code: '302'
+  redirect_default_code: '301'
   redirect_trailing_slash: true
   ignore_files:
     - .DS_Store
@@ -111,12 +111,12 @@ errors:
   display: '1'
   log: true
 debugger:
-  enabled: false
+  enabled: true
   shutdown:
     close_connection: true
   twig: true
 images:
-  default_image_quality: 85
+  default_image_quality: 80
   cache_all: false
   cache_perms: '0755'
   debug: false
