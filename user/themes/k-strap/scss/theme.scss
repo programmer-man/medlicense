@@ -1,0 +1,141 @@
+html {
+  position: relative;
+  height: 100%;
+  z-index: -1;
+}
+
+body {
+  height: auto !important;
+  min-height: 100%;
+  overflow-x: initial;
+}
+
+#app {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+
+  .btn {
+    font-size: .9em;
+    text-transform: uppercase;
+  }
+}
+
+#mobilemenu {
+  display: none;
+
+  &.is-active {
+    display: block;
+  }
+
+  .submenu {
+
+    .submenu-menu {
+      display: none;
+
+      &.is-open {
+        display: block;
+      }
+    }
+  }
+}
+
+#top {
+  width: 100%;
+  position: relative;
+  z-index: 3;
+  transition: all linear .5s;
+  height: 75px;
+  background-color: #e9ece6;
+  border-top:4px solid #93b876;
+
+  .navbar {
+    padding: .5rem 0;
+
+    .navbar-nav {
+      padding: 0 .5rem
+    }
+  }
+
+  li.nav-item {
+    padding:.5rem; 
+
+    &.dropdown:hover {
+
+      .dropdown-menu {
+        display: block;
+        margin-top: -3px;
+
+        a { color: #999; }
+        a:hover { color: #333; }
+      }
+    }
+
+    a.nav-link {
+      color: #4c4c4c;
+      font-weight: 700;
+      text-decoration: none;
+      white-space: nowrap;
+      font-size: .9em;
+      text-transform: uppercase;
+    }
+  }
+
+  @media screen and (min-width: 769px ) {
+    .fixed-top-md {
+      position: fixed;
+      width: 100%;
+    }
+  }
+}
+
+#mid {
+  position: relative;
+  flex: 1 0 auto;
+  z-index: 2;
+}
+
+.content {
+  padding: 2rem 0;
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', sans-serif;
+  }
+
+  h1, h2, h3 {
+    font-weight: 400;
+  }
+
+  p, h1 { 
+    color: $gray-700;
+  }
+
+  h2 {
+    color: $secondary;
+  }
+
+  ol, ul {
+    list-style: none;
+    padding: 0;
+    counter-reset: list-counter;
+
+    li::before {
+      content: counter(list-counter);
+      counter-increment: list-counter;
+      display: inline-block;
+      width: 30px;
+      text-align: right;
+      margin-right: 10px;
+      color: $primary;
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+  }
+
+}
+
+#bot {
+  position: relative;
+  z-index: 1;
+}

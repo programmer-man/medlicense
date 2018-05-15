@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{% set theme_config = attribute(config.themes, config.system.pages.theme) %}
+
+{% block head %}
+    <meta charset="utf-8" />
+    <title>{% if header.title %}{{ header.title|e('html') }} | {% endif %}{{ site.title|e('html') }}</title>
+    {% include 'partials/metadata.html.twig' %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="icon" type="image/png" href="{{ url('theme://images/favicon.png', true) }}" />
+    <link rel="canonical" href="{{ page.url(true, true) }}" />
+
+    {% block stylesheets %}
+        {% do assets.addCss('theme://compiled/style.css', 100) %}
+    {% endblock %}
+    {{ assets.css() }}
+
+{% endblock head%}
+</head>
+<body class="{{ page.header.body_classes }}">
+    <div id="app" class="app">
+        {% block header %}
+        <div id="mobilemenu" :class="{ 'is-active': isOpen }">
+            <div class="container">
+            {% block mobile_navigation %}
+                {% include 'partials/mobilenav.html.twig' %}
+            {% endblock %}
+            </div>
+        </div>
+        <div id="top" class="header">
+            <nav class="navbar navbar-expand-md navbar-light fixed-top-md">
+                <div class="container">
+                    <div class="collapse navbar-collapse" id="mainNavbar">
+                        {% block header_navigation %}
+                            {% include 'partials/navigation.html.twig' %}
+                        {% endblock %}
+                    </div>
+                    <div class="ml-auto m-2 md-m-0">
+                        <button class="btn btn-secondary" type="submit">Purchase</button>
+                        <button class="navbar-toggler btn btn-default" @click="toggleMenu" type="button" aria-controls="mobilemenu" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        {% endblock %}
+
+        {% block body %}
+        <main id="mid" role="main" class="{{ class }}">
+            {% block pageheader %}
+            <div class="container">
+                <div class="row no-gutters">
+                    <div class="col">
+                        <img src="{{ url("theme://images/header.png") }}" class="img-fluid" >
+                    </div>
+                </div>
+            </div>
+            {% endblock %}
+            <section class="container">
+                <div class="content">
+                    {% block content %}
+                    {% endblock %}
+                </div>
+            </section>
+        </main>
+        {% endblock %}
+
+        {% block footer %}
+        <footer id="bot" class="text-muted py-5 bg-dark">
+            <div class="container">
+                <p class="float-right">
+                    <a href="#">Back to top</a>
+                </p>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </footer>
+        {% endblock %}
+    </div>
+    {% block javascripts %}
+        {% do assets.addJs('theme://compiled/app.js', 100) %}
+    {% endblock %}
+    {{ assets.js() }}
+</body>
+</html>
