@@ -9,15 +9,10 @@ plugins:
   - fullscreen
   - hr
   - image
-  - insertdatetime
   - link
   - lists
   - media
   - nonbreaking
-  - pagebreak
-  - paste
-  - print
-  - searchreplace
   - table
   - textcolor
   - toc
@@ -30,7 +25,7 @@ parameters:
   -
     name: paste_data_images
     value: '1'
-menubar: true
+menubar: false
 menu:
   -
     title: Tools

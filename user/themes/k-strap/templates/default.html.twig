@@ -1,14 +1,23 @@
 {% embed 'partials/base.html.twig' %}
 
     {% block content %}
-        <h1>{{ header.title }}</h1>
-        {{ content }}
-    {% endblock %}
-
-    {% block sidebar %}
-        {% for partial in header.sidebar %}
-            {{ page.find(partial.route).content }}
-        {% endfor %}
+        <section class="container">
+            <div class="content top">
+                <div class="row">
+                    <div class="col-md-8 pr-sm-4 pr-md-8">
+                        <h1>{{ header.title }}</h1>
+                        {{ content }}
+                    </div>
+                    <div class="col-md-4">
+                        <div class="sidebar">
+                            {% for partial in header.sidebar %}
+                                {{ page.find(partial.route).content }}
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     {% endblock %}
 
 {% endembed %}
