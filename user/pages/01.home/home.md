@@ -26,5 +26,65 @@ process:
     markdown: false
 ---
 
-<h1 id="mcetoc_1cdij3f7p0">Expedited Medical Licensing Service</h1>
-<p>This is the body copy.</p>
+<h1 id="mcetoc_1cdij3f7p0">Expedited Medical License Service</h1>
+<p><span style="font-size: 11pt;">MedLicense.com &trade; is the nation's premier Physician Licensing Company. Over 39,000 Physicians have utilized MedLicense.com's Medical License Service to obtain their State Medical Board Licenses since 2001. In 2016, MedLicense.com licensed 2% of all Physicians licensed in the 50 States. MedLicense.com is the Recognized Industry Leader in Physician Licensing. There is only One MedLicense.com. MedLicense.com licenses Physicians in all 50 States. Simply fill out our form and we will handle the rest. The licensure process is time consuming and requires knowledge of each State Med Boards' regulatory process. Whether you are applying for a medical license in Florida, New York, California, Georgia, or all the states in between, MedLicense.com can expedite your medical license process by applying our knowledge of the licensure requirements and aggressively following up with all State Board Applications.</span></p>
+<p><a class="btn btn-secondary" href="../../pricing">Purchase Licensing Services <em class="fa fa-sm fa-play" aria-hidden="true">&nbsp;</em></a></p>
+<p>&nbsp;</p>
+<h3 id="mcetoc_1cdn8euab0">Our Process: How does our Medical License Service work?</h3>
+<ol>
+<li><span style="font-size: 11pt;">Submit your information to MedLicense.com through our purchase services link or via a 5 minute phone consultation</span></li>
+<li><span style="font-size: 11pt;">Email/Fax your CV to us.</span></li>
+<li><span style="font-size: 11pt;">A pre-completed packet will arrive in 3 to 6 business days for you to proof, sign, and notarize.</span></li>
+<li><span style="font-size: 11pt;">Return the packet back to MedLicense.com</span></li>
+<li><span style="font-size: 11pt;">MedLicense.com will update and submit the application to the State</span></li>
+<li><span style="font-size: 11pt;">MedLicense.com will submit/request all verifications from the source</span></li>
+<li><span style="font-size: 11pt;">MedLicense.com will follow up with all verfications and the State Medical Board until the application is deemed complete.</span></li>
+</ol>
+<p><a class="btn btn-secondary" href="../../pricing">Sign up today! <em class="fa fa-sm fa-play" aria-hidden="true">&nbsp;</em></a></p>
+<p>&nbsp;</p>
+<h3 id="mcetoc_1cdn9ard00">Average Licensing Time</h3>
+<p><span style="font-size: 11pt;">Physician's using our Medical Licensing Service are experiencing Licensing times between&nbsp;60 days to&nbsp;105 days&nbsp;for most applications.&nbsp; This is measured from the date of the submission of the application to the issuance. Licensure can exceed the 115 day mark depending on the State and the Physician's background. Please contact us to for a consultation to determine a more accurate licensure time estimate.</span>&nbsp;&nbsp;</p>
+<table>
+<tbody>
+<tr>
+<th>Most Popular</th>
+<th>USA/Canadian Graduates</th>
+<th>Foreign Graduates</th>
+</tr>
+<tr>
+<td>California</td>
+<td>2-5 months</td>
+<td>2-6 months</td>
+</tr>
+<tr>
+<td>Florida</td>
+<td>1-3 months</td>
+<td>2-4 months</td>
+</tr>
+<tr>
+<td>Illinois</td>
+<td>2-4 months</td>
+<td>3-6 months</td>
+</tr>
+<tr>
+<td>New Jersey</td>
+<td>2.5-3.5 months</td>
+<td>2.5-4.5 months</td>
+</tr>
+<tr>
+<td>New York</td>
+<td>1.5-3.5 months</td>
+<td>2-8 months</td>
+</tr>
+<tr>
+<td>Ohio</td>
+<td>2-4 months</td>
+<td>2-6 months</td>
+</tr>
+<tr>
+<td>Pennsylvania</td>
+<td>2-4 months</td>
+<td>2-5 months</td>
+</tr>
+</tbody>
+</table>

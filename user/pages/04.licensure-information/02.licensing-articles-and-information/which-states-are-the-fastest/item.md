@@ -1,8 +1,21 @@
 ---
 title: 'Which States are the Fastest?'
+sidebar:
+    -
+        route: /_partials/_three-easy-steps
+    -
+        route: /_partials/_state-licensure-requirements
+    -
+        route: /_partials/_state-medical-board-links
+    -
+        route: /_partials/_wise-words
 enablefeatureboxes: false
+date: '05/17/2018 11:50 am'
+summary:
+    size: 252
 ---
 
+<p>Through our experience in licensing thousands of physicians we have compiled a short article on which States have the fastest process in the Nation. These States should be considered in the Hall of Fame for Efficiency, Expediency, and Customer Service.</p>
 <h5># 1 - Indiana Medical Board</h5>
 <p>The Indiana Medical Board can issue a Temporary License in 2 weeks given that everything falls into place. Indiana has limited certification requirements which allows for an expedited process. The verifications which are required are limited to the NPDB-HIPDB report, Med School Transcripts, Exam Scores, and State License verficiations. Most licenses with Indiana are issued between 1 1/2 to 3 months.</p>
 <h5># 2 - Michigan Medical Board</h5>
