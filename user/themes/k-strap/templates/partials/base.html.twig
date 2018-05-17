@@ -59,15 +59,17 @@
             </div>
             {% endblock %}
             <section class="container">
-                <div class="content">
+                <div class="content top">
                     <div class="row">
-                        <div class="col-md-8">
+                        <div class="col-md-8 pr-sm-4 pr-md-8">
                             {% block content %}
                             {% endblock %}
                         </div>
                         <div class="col-md-4">
-                            {% block sidebar %}
-                            {% endblock %}
+                            <div class="sidebar">
+                                {% block sidebar %}
+                                {% endblock %}
+                            </div>
                         </div>
                     </div>
                 </div>

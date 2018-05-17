@@ -29,6 +29,12 @@ body {
       height: 12px;
     }
   }
+
+  .pr-md-8 {
+    @media screen and (min-width: 1024px){
+      padding-right: 6rem !important;
+    }
+  }
 }
 
 #mobilemenu {
@@ -129,7 +135,12 @@ body {
 .content {
   padding: 2rem 0;
 
-  h1, h2, h3, h4, h5, h6 {
+  &.top {
+    border-top: 2px dotted $info;
+    margin-top: 1rem;
+  }
+
+  h1, h2, h3 {
     font-family: 'Georgia', sans-serif;
   }
 
@@ -137,15 +148,31 @@ body {
     font-weight: 400;
   }
 
-  p, h1 { 
+  h1, h2, h3, h4, h5, h6, p, li {
     color: $gray-700;
+  }
+
+  h4, h5 {
+    font-weight: 700;
+  }
+
+  p, li { 
+    line-height: 1.75em;
   }
 
   h2 {
     color: $secondary;
   }
 
-  ol, ul {
+  &.below-the-fold {
+    padding: 3rem 0;
+
+    h2 {
+      color: $gray-700;
+    }
+  }
+
+  ol {
     list-style: none;
     padding: 0 .5rem 0 2rem;
     counter-reset: list-counter;
@@ -195,6 +222,43 @@ body {
     overflow-x: scroll;
   }
 
+}
+
+.sidebar {
+  .section {
+    padding: .5rem 0 2rem;
+    border-bottom: 1px solid $info;
+    margin-bottom: 2rem;
+
+    &:last-child(){
+      margin-bottom:0;
+      border: none;
+    }
+
+    h2 {
+      color: $primary;
+      font-style: italic;
+      font-size: 2.5em;
+      line-height: 1.1em;
+      margin-bottom: 1rem;
+    }
+    
+  }
+}
+
+.featureboxes {
+  
+    h3 {
+    color: #FFF;
+    font-family: 'Georgia',serif;
+    margin: .75rem 0 1.75rem;
+    font-size: 1.8em;
+
+    @media screen and (min-width: 768px){
+      font-size: 2.2em;
+    }
+    
+  }
 }
 
 #bot {

@@ -13,16 +13,79 @@ form:
         content:
 
           fields:
-            header.sidebar:
-              type: list
-              label: Sidebar Content
-              style: vertical
+
+            header.fieldset1:
+              type: fieldset
+              title: Sidebar
+              collapsed: false    
+              collapsible: true    
               fields:
-                .route:
-                  type: select
-                  label: Select a Partial
+
+                header.sidebar:
+                  type: list
+                  style: vertical
+                  fields:
+                    .route:
+                      type: select
+                      label: Select a Partial
+                      options:
+                        /_partials/_three-easy-steps: 'Three Easy Steps'
+                        /_partials/_state-licensure-requirements: 'State Licensure Requirements'
+                        /_partials/_state-medical-board-links: 'State Medical Board Links'
+                        /_partials/_wise-words: 'Wise Words'
+
+            header.fieldset2:
+              type: fieldset
+              title: Feature Box Bar
+              collapsed: true    
+              collapsible: true    
+              fields:
+
+                header.enablefeatureboxes:
+                  type: toggle
+                  default: 0
                   options:
-                    /_partials/_three-easy-steps: 'Three Easy Steps'
-                    /_partials/_state-licensure-requirements: 'State Licensure Requirements'
-                    /_partials/_state-medical-board-links: 'State Medical Board Links'
-                    /_partials/_wise-words: 'Wise Words'
+                    1: Enabled
+                    0: Disabled
+                  validate:
+                    type: bool
+
+                columns:
+                  type: columns
+                  fields:
+
+                    column1:
+                      type: column
+                      fields:
+
+                        header.name1:
+                          type: text
+                          label: Title
+
+                        header.url1:
+                          type: text
+                          label: URL
+
+                    column2:
+                      type: column
+                      fields:
+
+                        header.name2:
+                          type: text
+                          label: Title
+
+                        header.url2:
+                          type: text
+                          label: URL
+
+                    column3:
+                      type: column
+                      fields:
+
+                        header.name3:
+                          type: text
+                          label: Title
+
+                        header.url3:
+                          type: text
+                          label: URL

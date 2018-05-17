@@ -17,7 +17,7 @@ languages:
   override_locale: false
 home:
   alias: /home
-  hide_in_urls: true
+  hide_in_urls: false
 pages:
   theme: k-strap
   order:

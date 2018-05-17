@@ -11,25 +11,45 @@
     {% endblock %}
 
     {% block featureboxes %}
-        {% set boxes = page.find('/_partials/_feature-boxes') %}
-        <section class="bg-primary">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 text-center">
-                        <h3>{{ boxes.name1 }}</h3>
-                        <a class="btn btn-secondary" href="{{ boxes.url1 }}">Learn More</a>
-                    </div>
-                    <div class="col-md-4 text-center">
-                        <h3>{{ boxes.name2 }}</h3>
-                        <a class="btn btn-secondary" href="{{ boxes.url2 }}">Learn More</a>
-                    </div>
-                    <div class="col-md-4 text-center">
-                        <h3>{{ boxes.name3 }}</h3>
-                        <a class="btn btn-secondary" href="{{ boxes.url3 }}">Learn More</a>
+        {% if header.enablefeatureboxes == true %}
+            <section class="bg-primary featureboxes py-4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 text-center py-4">
+                            <h3>{{ header.name1 }}</h3>
+                            <a class="btn btn-secondary" href="{{ header.url1 }}">Learn More <i class="fa fa-sm fa-play" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="col-md-4 text-center py-4">
+                            <h3>{{ header.name2 }}</h3>
+                            <a class="btn btn-secondary" href="{{ header.url2 }}">Learn More <i class="fa fa-sm fa-play" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="col-md-4 text-center py-4">
+                            <h3>{{ header.name3 }}</h3>
+                            <a class="btn btn-secondary" href="{{ header.url3 }}">Learn More <i class="fa fa-sm fa-play" aria-hidden="true"></i></a>
+                        </div>
                     </div>
                 </div>
+            </section>
+        {% endif %}
+    {% endblock %}
+
+    {% block additionalcontent %}
+        {% if header.enablebelowcontent == true %}
+        <div class="container">
+            <div class="content below-the-fold">
+            <div class="row">
+                <div class="col-md-8 pr-sm-4 pr-md-8">
+                    {{ header.belowcontent }}
+                </div>
+                <div class="col-md-4">
+                    {% for partial in header.belowsidebar %}
+                        {{ page.find(partial.route).content }}
+                    {% endfor %}
+                </div>
             </div>
-        </section>
+            </div>
+        </div>
+        {% endif %}
     {% endblock %}
 
 {% endembed %}
