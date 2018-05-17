@@ -1,0 +1,39 @@
+{% embed 'partials/base.html.twig' %}
+
+    {% set collection = page.collection() %}
+
+    {% block content %}
+        <section class="container">
+            <div class="content top">
+                <h1>{{ header.title }}</h1>
+                {{ content }}
+
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <th scope="col">State</th>
+                            <th scope="col">PGT for Domestic&nbsp;Grads </th>
+                            <th scope="col">PGT for International&nbsp;Grads</th>
+                            <th scope="col">ABMS/SPEX/10 Year&nbsp;Rule</th>
+                            <th scope="col">Step 3 USMLE&nbsp;Attempts </th>
+                            <th scope="col">USMLE 7&nbsp;Year</th>
+                        </thead>
+                        <tbody>
+                        {% for child in collection %}
+                            <tr class="text-center">
+                                <td class="text-left"><a href="{{ child.link }}" >{{ child.title }}</a></td>
+                                <td>{{ child.header.pgtdg }}</td>
+                                <td>{{ child.header.pgtig }}</td>
+                                <td>{{ child.header.abms }}</td>
+                                <td>{{ child.header.step3 }}</td>
+                                <td>{{ child.header.usmle }}</td>                                
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    {% endblock %}
+
+{% endembed %}

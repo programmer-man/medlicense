@@ -1,28 +1,38 @@
 {% embed 'partials/base.html.twig' %}
 
+    {% set collection = page.collection() %}
+
     {% block content %}
-        {{ content }}
+        <section class="container">
+            <div class="content top">
+                <div class="row">
+                    <div class="col-md-8 pr-sm-4 pr-md-8">
+                        <h1>{{ header.title }}</h1>
+                        {{ content }}
 
-        {% set collection = page.collection() %}
+                        <div class="bricklayer">
+                        {% for child in collection %}
+                            {% include 'partials/blog-list-item.html.twig' with {blog: page, page: child} %}
+                        {% endfor %}
+                        </div>
 
-        <div class="bricklayer">
-        {% for child in collection %}
-            {% include 'partials/blog-list-item.html.twig' with {blog: page, page: child} %}
-        {% endfor %}
-        </div>
+                        {% if show_pagination and config.plugins.pagination.enabled and collection.params.pagination %}
+                            <div id="listing-footer">
+                                {% include 'partials/pagination.html.twig' with {base_url: page.url, pagination: collection.params.pagination} %}
+                            </div>
+                        {% endif %}
 
-        {% if show_pagination and config.plugins.pagination.enabled and collection.params.pagination %}
-            <div id="listing-footer">
-                {% include 'partials/pagination.html.twig' with {base_url: page.url, pagination: collection.params.pagination} %}
+                    </div>
+                    <div class="col-md-4">
+                        <div class="sidebar">
+                            {% for partial in header.sidebar %}
+                                {{ page.find(partial.route).content }}
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
             </div>
-        {% endif %}
-
-    {% endblock %}
-
-    {% block sidebar %}
-        {% for partial in header.sidebar %}
-            {{ page.find(partial.route).content }}
-        {% endfor %}
+        </section>
     {% endblock %}
 
 {% endembed %}

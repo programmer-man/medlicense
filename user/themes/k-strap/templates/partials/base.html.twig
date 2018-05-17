@@ -49,39 +49,25 @@
 
         {% block body %}
         <main id="mid" role="main" class="{{ class }}">
+        
             {% block pageheader %}
-            <div class="container">
-                <div class="row no-gutters">
-                    <div class="col">
-                        <img src="{{ url("theme://images/header.jpg") }}" class="img-fluid" >
+                <div class="container">
+                    <div class="row no-gutters">
+                        <div class="col">
+                            <img src="{{ url("theme://images/header.jpg") }}" class="img-fluid" >
+                        </div>
                     </div>
                 </div>
-            </div>
             {% endblock %}
-            <section class="container">
-                <div class="content top">
-                    <div class="row">
-                        <div class="col-md-8 pr-sm-4 pr-md-8">
-                            {% block content %}
-                            {% endblock %}
-                        </div>
-                        <div class="col-md-4">
-                            <div class="sidebar">
-                                {% block sidebar %}
-                                {% endblock %}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+
+            {% block content %}
+            {% endblock %}
 
             {% block featureboxes %}
             {% endblock %}
             
-            <div class="bottomcontent">
-                {% block additionalcontent %}
-                {% endblock %}
-            </div>
+            {% block additionalcontent %}
+            {% endblock %}
 
         </main>
         {% endblock %}

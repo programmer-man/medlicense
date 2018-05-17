@@ -1,4 +1,4 @@
-title: Sidebar
+title: Default
 '@extends':
     type: default
     context: blueprints://pages

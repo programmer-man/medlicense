@@ -1,0 +1,91 @@
+extends@: default
+
+form:
+  fields:
+    tabs:
+
+      fields:
+        content:
+          type: tab
+          title: Content
+
+          fields:
+            unset@: true
+
+            header.title:
+              label: State
+              type: text
+
+            contentsection:
+              type: section
+              title: Page Content
+              underline: true
+
+            content:
+              type: tinymce
+
+            requirements:
+              type: section
+              title: State Requirements
+              underline: true
+
+            columns:
+              type: columns
+              fields:
+
+                column1:
+                  type: column
+                  fields:
+
+                    header.licenserequirements:
+                      type: tinymce
+                      label: License Requirements
+
+                column2:
+                  type: column
+                  fields:
+
+                    header.examrequirements:
+                      type: tinymce
+                      label: Exam Requirements
+
+                column3:
+                  type: column
+                  fields:
+
+                    header.contactinformation:
+                      type: tinymce
+                      label: Contact Information
+
+            attributes:
+              type: section
+              title: Data Attributes
+              underline: true
+
+            header.pgtdg:
+              label: PGT for Domestic Grads
+              type: text
+              size: medium
+
+            header.pgtig:
+              label: PGT for International Grads
+              type: text
+              size: medium
+
+            header.abms:
+              label: ABMS/SPEX/10 Year Rule
+              type: text
+              size: medium
+
+            header.step3:
+              label: Step 3 USMLE Attempts
+              type: text
+              size: medium
+
+            header.usmle:
+              label: USMLE 7 Year
+              type: text
+              size: medium
+
+
+            

@@ -100,11 +100,27 @@ body {
     &.dropdown:hover {
 
       .dropdown-menu {
+        border-top: solid 5px $primary;
         display: block;
         margin-top: -3px;
 
         a { color: #999; }
         a:hover { color: #333; }
+
+        &>.dropdown {
+          .dropdown-menu {
+            display: none;
+          }
+
+          &:hover {
+            .dropdown-menu {
+              display: block;
+              left: 95%;
+              top: 0;
+              margin-top: -13px;
+            }
+          }
+        }
       }
     }
 

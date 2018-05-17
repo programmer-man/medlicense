@@ -1,13 +1,22 @@
 {% embed 'partials/base.html.twig' %}
 
     {% block content %}
-        {{ content }}
-    {% endblock %}
-
-    {% block sidebar %}
-        {% for partial in header.sidebar %}
-            {{ page.find(partial.route).content }}
-        {% endfor %}
+        <section class="container">
+            <div class="content top">
+                <div class="row">
+                    <div class="col-md-8 pr-sm-4 pr-md-8">
+                        {{ content }}
+                    </div>
+                    <div class="col-md-4">
+                        <div class="sidebar">
+                            {% for partial in header.sidebar %}
+                                {{ page.find(partial.route).content }}
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     {% endblock %}
 
     {% block featureboxes %}
@@ -35,18 +44,20 @@
 
     {% block additionalcontent %}
         {% if header.enablebelowcontent == true %}
-        <div class="container">
-            <div class="content below-the-fold">
-            <div class="row">
-                <div class="col-md-8 pr-sm-4 pr-md-8">
-                    {{ header.belowcontent }}
+        <div class="bottomcontent">
+            <div class="container">
+                <div class="content below-the-fold">
+                    <div class="row">
+                        <div class="col-md-8 pr-sm-4 pr-md-8">
+                            {{ header.belowcontent }}
+                        </div>
+                        <div class="col-md-4">
+                            {% for partial in header.belowsidebar %}
+                                {{ page.find(partial.route).content }}
+                            {% endfor %}
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-4">
-                    {% for partial in header.belowsidebar %}
-                        {{ page.find(partial.route).content }}
-                    {% endfor %}
-                </div>
-            </div>
             </div>
         </div>
         {% endif %}
