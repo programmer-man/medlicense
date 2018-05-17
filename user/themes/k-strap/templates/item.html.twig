@@ -1,0 +1,11 @@
+{% extends 'default.html.twig' %}
+{% set blog = page.find(theme_var('blog-page')|default('/blog')) %}
+
+{% block content %}
+    <h1>{{ header.title }}</h1>
+    <div class="card-subtitle text-gray">
+        {% include 'partials/blog/date.html.twig' %}
+    </div>
+
+    {{ content }}
+{% endblock %}
