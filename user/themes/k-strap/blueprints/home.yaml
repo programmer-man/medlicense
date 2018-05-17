@@ -41,8 +41,10 @@ form:
                     fields:
                       .route:
                         type: select
+                        classes: fancy
+                        size: short
                         label: Select a Partial
-                        options:
+                        options: 
                           /_partials/_three-easy-steps: 'Three Easy Steps'
                           /_partials/_state-licensure-requirements: 'State Licensure Requirements'
                           /_partials/_state-medical-board-links: 'State Medical Board Links'

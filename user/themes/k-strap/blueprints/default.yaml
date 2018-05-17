@@ -24,6 +24,15 @@ form:
                 header.sidebar:
                   type: list
                   style: vertical
+                  default: 
+                        -
+                            route: /_partials/_three-easy-steps
+                        -
+                            route: /_partials/_state-licensure-requirements
+                        -
+                            route: /_partials/_state-medical-board-links
+                        -
+                            route: /_partials/_wise-words
                   fields:
                     .route:
                       type: select
@@ -33,6 +42,7 @@ form:
                         /_partials/_state-licensure-requirements: 'State Licensure Requirements'
                         /_partials/_state-medical-board-links: 'State Medical Board Links'
                         /_partials/_wise-words: 'Wise Words'
+                        /_partials/_worst-state-to-apply-to: 'Worst State to Apply To'
 
             header.fieldset2:
               type: fieldset
