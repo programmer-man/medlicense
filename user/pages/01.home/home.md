@@ -44,7 +44,8 @@ process:
 <p>&nbsp;</p>
 <h3 id="mcetoc_1cdn9ard00">Average Licensing Time</h3>
 <p><span style="font-size: 11pt;">Physician's using our Medical Licensing Service are experiencing Licensing times between&nbsp;60 days to&nbsp;105 days&nbsp;for most applications.&nbsp; This is measured from the date of the submission of the application to the issuance. Licensure can exceed the 115 day mark depending on the State and the Physician's background. Please contact us to for a consultation to determine a more accurate licensure time estimate.</span>&nbsp;&nbsp;</p>
-<table>
+<div class="table-responsive">
+<table class="table">
 <tbody>
 <tr>
 <th>Most Popular</th>
@@ -88,3 +89,4 @@ process:
 </tr>
 </tbody>
 </table>
+</div>
