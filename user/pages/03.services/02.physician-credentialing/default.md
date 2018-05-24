@@ -17,7 +17,7 @@ visible: true
 <div align="justify">
 <p class="c3"><br />Joint Commission standards require that the verification process of a physician's background retain the integrity of primary source. Primary Source simply means that the required verification was delivered to you directly from the verifying body. Unfortunately the process can be problematic and time consuming.&nbsp;<br /><br />MedLicense.com offers a clear, efficient solution to Hospitals, Insurers, and Physician Practices. Our specialty is State Medical Board Licensure (The most extreme and problematic type of primary source credentialing that is in existence). Our professional services push the licensure process through to the State Medical Boards in an abbreviated fashion, delivering the issued medical licenses to the Physicians in a time span that meets their needs. These same services and protocols are applied to the Physician Credentialing process to insure an expedited, trouble free credentialing cycle.&nbsp;</p>
 </div>
-<h3 id="mcetoc_1cdnnnp6i1">How the Physician Credentialing Process Works:</h3>
+<h2 id="mcetoc_1cdnnnp6i1">How the Physician Credentialing Process Works:</h2>
 <ul>
 <li>Our short order form is completed</li>
 <li>A copy of the physician's CV is provided</li>
@@ -26,9 +26,9 @@ visible: true
 <li>MedLicense.com follows up with the verifying parties</li>
 <li>The completed credentialing packet is sent to the client</li>
 </ul>
-<h3 id="mcetoc_1cdpqmb1p0">Who us our Typical Client?</h3>
+<h2 id="mcetoc_1cdpqmb1p0">Who us our Typical Client?</h2>
 <p>Our Physician Credentialing Verification Service (CVO) is utilized by Hospitals, Insurance Companies, Physician Groups, Telemedicine Groups, Prison Systems, and Indian Healthcare Systems. Our CVO Service provides a complete initial hire solution as well as an annual recredentialing solution for those entities which are required to fully credentialing their healthcare practitioners.</p>
-<h3 id="mcetoc_1cdpqp1v51">Our Physician Credentialing Process</h3>
+<h2 id="mcetoc_1cdpqp1v51">Our Physician Credentialing Process:</h2>
 <p>The following will be direct source verified:</p>
 <ul>
 <li><span style="font-size: 11pt;">Identity</span></li>

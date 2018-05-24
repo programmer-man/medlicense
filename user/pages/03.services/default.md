@@ -24,6 +24,6 @@ enablefeatureboxes: false
 <li>Submission of Required Forms to Hospitals and Institutions</li>
 <li>Submission of Temporary Applications Completion of FCVS forms (if required or requested)</li>
 </ul>
-<h3 id="mcetoc_1cdprh4fe0">Expedited Licensure</h3>
+<h2 id="mcetoc_1cdprh4fe0">Expedited Licensure</h2>
 <p>The State process is time consuming and arduous. Your time is too valuable to be spent on completing forms, licking envelopes, sending emails, and making phones calls over and over again. That is why MedLicense.com's Physician License Service exists. We can make the paths straight and reduce the time it takes to complete your Medical License Application. To initiate the process, simply complete our form, forward to MedLicense.com your CV, and then await for your licensure packet to arrive in 3 to 5 business days. Once you return the packet, then MedLicense.com will handle everything. It is that easy.</p>
 <p><a class="btn btn-secondary" href="../../pricing">Sign up today <em class="fa fa-sm fa-play" aria-hidden="true">&nbsp;</em></a>&nbsp;</p>
