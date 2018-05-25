@@ -8,6 +8,7 @@ pgtig: '3 years'
 abms: 'No'
 step3: '6'
 usmle: 7+
+visible: false
 ---
 
 <p>The Delaware Medical Board has a typical process. Most of the physician's timeline is verified by Delaware. Delaware processes application quickly. After submitting the Medical License Application, they will notify the physician about the deficiencies necessary to complete the application within a couple of weeks. The Delware Medical Board provides access to the licensure analysts. This allows for the verifying of receipt of the required verifications which must be received by the State. The staff is helpful and pleasant to work with. Mail loss typically is not a problem with Delaware. This also assists in providing for an expedited process.</p>

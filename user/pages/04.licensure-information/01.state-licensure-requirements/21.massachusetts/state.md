@@ -8,6 +8,7 @@ pgtig: '2 years'
 abms: 'Yes'
 step3: '6'
 usmle: 7+
+visible: false
 ---
 
 <p>With the Massachusetts Medical Board, MedLicense.com is averaging 3.5 to 12 months for the issuance of a Massachusetts Medical License from the submission of the application to the Medical Board to the issuance of the Physician Massachusetts Medical License. Our firm has licensed Physicians in Massachusetts since April 2000. In an average year, MedLicense.com will handle between 25 to 35 Massachusetts License Applications. We understand the process and what needs to be completed to have your application finalized. MedLicense.com knows when and how to submit the Applications and in what order to help insure that the Massachusetts Medical Board does not lose verifications. Once the files are deemed complete by the Massachusetts Medical Board the Massachusetts Medical License is issued. The Massachusetts Medical Board does not require a Physical Interview.</p>

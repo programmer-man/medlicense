@@ -8,6 +8,7 @@ pgtig: '2 years'
 abms: 'No'
 step3: None
 usmle: 'None - 5 years to pass Step 3'
+visible: false
 ---
 
 <p>With the Michigan Medical Board, MedLicense.com is averaging 45 to 90 days for the issuance of a Michigan Medical License from the submission of the application to the Medical Board to the issuance of the Physician Michigan Medical License for Domestic Graduates. International Graduates who cannot apply via Reciprocity might take longer due to the direct certification of the International Medical School.</p>

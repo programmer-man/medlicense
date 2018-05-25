@@ -8,6 +8,7 @@ pgtig: '2 years'
 abms: 'Yes'
 step3: '3 (if not licensed)  4 (if licensed and board certified)'
 usmle: 'Step 3 must be passed within 5 years of Step 2 or before the end of the residency training'
+visible: false
 ---
 
 <p>With the Minnesota Medical Board, MedLicense.com is averaging 60 to 120 days for the issuance of a Minnesota Medical License from the submission of the application to the Medical Board to the issuance of the Physician Minnesota Medical License for Domestic Graduates. International Graduates might take longer due to the direct certification of the International Medical School.</p>

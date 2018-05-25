@@ -8,6 +8,7 @@ pgtig: '3 years'
 abms: 'No'
 step3: '3'
 usmle: '7'
+visible: false
 ---
 
 <p>The Vermont Medical Board has a typical process. Most of the physician's timeline is verified by the Vermont Medical Board. The Board processes application quickly. After submitting the Vermont Medical License Application, the Vermont Medical Board will process and notify the physician of the deficiencies necessary to complete the application within a couple of weeks. The Vermont Medical Board provides access to the licensure analysts. This allows for the verifying of receipt of the required verifications which must be received by the Vermont Medical Board. The staff is helpful and pleasant to work with. Mail loss typically is not a problem with the Vermont Medical Board. This also assists in providing for an expedited process.</p>

@@ -8,6 +8,7 @@ pgtig: '2 years'
 abms: 'No'
 step3: None
 usmle: None
+visible: false
 ---
 
 <p>How long is Florida taking MedLicense.com? MedLicense.com is averaging 60 - 110 Days (from the application submission to issuance) You have probably heard horror stories concerning the Medical Board of Florida. Some are true. Our firm has licensed Physicians in Florida since April 2000. In an average year, MedLicense.com will handle between 120 to 150 FL License Applications. We understand the process and what needs to be completed to have your application finalized. Our experience with FL is such that we can push the process through and even see licensure at the 45 day threshold if the FBI Background Checks allow. USA Graduate or a Graduate of a Foreign Medical School will benefit from our FL Med License Service. MedLicense.com can move this arduous process through within a time period that will meet you needs. Your involvement in the process is kept to a minimum. The fee for our services is a one time payment of $599 (practicing) or $489 (in training) per State Process. Our packet is shipped to you after a 5-10 min consultation. Sign, notarize, and proof your application packet and then return it to MedLicense.com with the requested copies, photos, and addendums. Then MedLicense.com will forward the completed packet to the Florida Medical Board. Then the verification process and the required follow up with the third parties begins. Within 2 to 3.5 months, the license will typically be issued.</p>

@@ -8,6 +8,7 @@ pgtig: '2 years'
 abms: 'No'
 step3: '3'
 usmle: '7 or 10 (MD/PhD)'
+visible: false
 ---
 
 <p>With the Utah Medical Board, MedLicense.com is averaging 2 to 4 1/2 months for the issuance of a Utah Medical License for Domestic Graduates from the submission of the application to the Medical Board to the issuance of the Physician Utah Medical Board. Our firm has licensed Physicians in Utah since April 2000. In an average year, MedLicense.com will handle between 25 to 35 Utah Medical License Applications. We understand the process and what needs to be completed to have your application finalized. Once the files are deemed complete by the Utah Medical Board the Utah Medical License is issued. The Utah Medical Board will not require a Physical Interview.</p>

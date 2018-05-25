@@ -8,6 +8,7 @@ pgtig: '2 years'
 abms: 'No'
 step3: '3 per step'
 usmle: '10'
+visible: false
 ---
 
 <p>With the Indiana Medical Board, MedLicense.com is averaging 1 to 2 1/2 months for the issuance of a Indiana Medical License from the submission of the application to the Medical Board to the issuance of the Physician Indiana Medical License. Our firm has licensed Physicians in Indiana since April 2000. In an average year, MedLicense.com will handle between 50 to 60 Indiana License Applications. We understand the process and what needs to be completed to have your application finalized. MedLicense.com knows when and how to submit the Applications and in what order to help insure that the Indiana Medical Board doesn't lose verifications. Our experience with Indiana is such that we can push the process through and even see licensure at the 30-75 day mark. Once the files are deemed complete by the Indiana Medical Board, the medical license is at the next monthly Board Meeting. If the Physicians needs an Indiana Medical License in a hurry, Indiana will offer a Temporary License which will be issued within 2-3 weeks of filing the application. The Physician cannot have any disciplinary issues and must hold a valid USA license to receive this. The Indiana Medical Board is not a difficult board to deal with if problems exist with the application. If Indiana requires a Board Appearance by the Physician, then the licensing time can be extended.</p>

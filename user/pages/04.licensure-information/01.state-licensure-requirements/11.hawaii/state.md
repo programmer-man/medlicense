@@ -8,6 +8,7 @@ pgtig: '2 years'
 abms: 'No'
 step3: None
 usmle: '7'
+visible: false
 ---
 
 <p>The Hawaii Physician License typically takes 45 to 120 days to issue from the date that the application is filed with the HI Med Board. All work history and employment for the past 5 years is required to be verified. The Hawaii Med Board does not recognize the LMCC Examination. (One of 5 State Boards that do not). Hawaii tends to be strict concerning their Educational, Training, and Examination Requirements. The State has a standard licensure process. Hawaii does not offer a Temporary License. Typically it is not needed. The Hawaii Medical Board does not require the applications to go before a Board Meeting to be approved.</p>
