@@ -1,0 +1,39 @@
+{% embed 'partials/base.html.twig' %}
+
+    {% set collection = page.collection() %}
+
+    {% block content %}
+        <section class="container">
+            <div class="content top">
+                <h1>{{ header.title }}</h1>
+                {{ content }}
+
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <th scope="col">State</th>
+                            <th scope="col" class="text-center">AOA / PGT</th>
+                            <th scope="col" class="text-center">Required</th>
+                        </thead>
+                        <tbody>
+                        {% for child in collection %}
+                            <tr class="text-center">
+                                <td class="text-left">
+                                {% if child.header.enabled == 1 %}
+                                    <a href="{{ child.link }}" >{{ child.title }}</a>
+                                {% else %}
+                                    {{ child.title }}
+                                {% endif %}
+                                </td>
+                                <td>{{ child.header.aoapgt }}</td>
+                                <td>{{ child.header.required }}</td>                              
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    {% endblock %}
+
+{% endembed %}

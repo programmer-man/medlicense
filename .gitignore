@@ -35,6 +35,7 @@ Thumbs.db
 
 # editors and tests
 .idea/*
+.vs/*
 .vscode/*
 tests/_output/*
 tests/_support/_generated/*

@@ -2,6 +2,7 @@ require('babel-polyfill');
 
 import Vue from 'vue';
 import BootstrapVue from 'bootstrap-vue';
+import StateForm from './components/StateForm.vue';
 
 // Globally register bootstrap-vue components
 Vue.use(BootstrapVue);
@@ -9,6 +10,10 @@ Vue.use(BootstrapVue);
 let app = new Vue({
 
     el: '#app',
+
+    components: {
+        'stateform': StateForm
+    },
 
     data: {
         isOpen: false,

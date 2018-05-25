@@ -1,20 +1,14 @@
+{% set states = {} %}
+
+{% for state in page.find('/licensure-information/state-licensure-requirements').children.order('title', 'asc') %}
+    {% set states = states|merge([state]) %}
+{% endfor %}
+
+    {{ dump(states) }}
+
+
 <section class="section">
     <h2>{{ header.title }}</h2>
-    <form class="form" action="/state-licensure-information/state-medical-board-requirements" method="get" >
-    <div class="row">
-        <div class="form-group col">
-            <label for="inputPassword2" class="sr-only">Select State</label>
-            <select name="state" class="custom-select">
-                <option selected>Select State</option>
-                <option value="alabama">AB</option>
-                <option value="alaska">AL</option>
-                <option value="3">Three</option>
-            </select>
-        </div>
-        <div class="form-group col-auto">
-        <button type="submit" class="btn btn-secondary">GO</button>
-        </div>
-    </div>
-    </form>
+    <stateform :locationdata='{{ states|json_encode }}' ></stateform>
     <p><img src="{{ url("theme://images/united-states.png") }}" class="img-fluid" ></p>
 </section
