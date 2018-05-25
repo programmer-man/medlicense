@@ -2,11 +2,9 @@
 title: Pricing
 sidebar:
     -
-        route: /_partials/_three-easy-steps
+        route: /_partials/_purchase-online
     -
-        route: /_partials/_state-licensure-requirements
-    -
-        route: /_partials/_state-medical-board-links
+        route: /_partials/_purchase-by-phone
     -
         route: /_partials/_wise-words
 enablefeatureboxes: false
@@ -17,17 +15,17 @@ enablefeatureboxes: false
 <tbody>
 <tr>
 <td>State Medical License Service</td>
-<td></td>
+<td>&nbsp;</td>
 <td>$599</td>
 </tr>
 <tr>
 <td>State Medical License Servicefor Residents</td>
-<td></td>
+<td>&nbsp;</td>
 <td>$489</td>
 </tr>
 <tr>
 <td>State Medical License Service for Military</td>
-<td></td>
+<td>&nbsp;</td>
 <td>$469</td>
 </tr>
 <tr>
@@ -36,22 +34,22 @@ enablefeatureboxes: false
 <td>$599</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>2nd State</td>
 <td>$569</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>3rd State</td>
 <td>$539</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>4th State</td>
 <td>$509</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Each Thereafter</td>
 <td>$469</td>
 </tr>
@@ -72,7 +70,7 @@ enablefeatureboxes: false
 </tr>
 <tr>
 <td>Puerto Rico Medical Board License Service</td>
-<td></td>
+<td>&nbsp;</td>
 <td>$1699</td>
 </tr>
 <tr>
@@ -102,7 +100,7 @@ enablefeatureboxes: false
 </tr>
 <tr>
 <td>Medicare / Medicaid Setup</td>
-<td></td>
+<td>&nbsp;</td>
 <td>$1200</td>
 </tr>
 <tr>
@@ -112,22 +110,22 @@ enablefeatureboxes: false
 </tr>
 <tr>
 <td>Canadian Licensing Service</td>
-<td></td>
+<td>&nbsp;</td>
 <td>$959</td>
 </tr>
 <tr>
 <td>Corporate Physician Assistant Licensing Service</td>
-<td></td>
+<td>&nbsp;</td>
 <td>$569</td>
 </tr>
 <tr>
 <td>Corporate Nurse Practitioner (APRN) Licensing Service</td>
-<td></td>
+<td>&nbsp;</td>
 <td>$959</td>
 </tr>
 <tr>
 <td>Corporate Nurse (RN) Licensing Service</td>
-<td></td>
+<td>&nbsp;</td>
 <td>$389</td>
 </tr>
 </tbody>

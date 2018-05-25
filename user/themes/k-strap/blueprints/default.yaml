@@ -43,6 +43,8 @@ form:
                         /_partials/_state-medical-board-links: 'State Medical Board Links'
                         /_partials/_wise-words: 'Wise Words'
                         /_partials/_worst-state-to-apply-to: 'Worst State to Apply To'
+                        /_partials/_purchase-online: 'Purchase Online'
+                        /_partials/_purchase-by-phone: 'Purchase by Phone'
 
             header.fieldset2:
               type: fieldset
