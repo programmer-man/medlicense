@@ -5,10 +5,6 @@ sidebar:
         route: /_partials/_three-easy-steps
     -
         route: /_partials/_state-licensure-requirements
-    -
-        route: /_partials/_state-medical-board-links
-    -
-        route: /_partials/_wise-words
 enablefeatureboxes: false
 date: '05/05/2010 11:38 am'
 publish_date: '05/17/2018 11:38 am'
