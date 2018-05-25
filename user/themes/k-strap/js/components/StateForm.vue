@@ -22,7 +22,7 @@
         props: {
             locationdata: {
                 type: Object,
-                default: null
+                default: {}
             }
         },
         data() {

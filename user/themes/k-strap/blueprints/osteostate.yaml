@@ -1,0 +1,91 @@
+extends@: state
+
+form:
+  fields:
+    tabs:
+
+      fields:
+        content:
+          type: tab
+          title: Content
+
+          fields:
+            unset@: true
+
+            header.title:
+              label: State
+              type: text
+
+            contentsection:
+              type: section
+              title: Page Content
+              underline: true
+
+            content:
+              type: tinymce
+
+            requirements:
+              type: section
+              title: State Requirements
+              underline: true
+
+            columns:
+              type: columns
+              fields:
+
+                column1:
+                  type: column
+                  fields:
+
+                    header.licenserequirements:
+                      type: tinymce
+                      label: License Requirements
+
+                column2:
+                  type: column
+                  fields:
+
+                    header.examrequirements:
+                      type: tinymce
+                      label: Exam Requirements
+
+                column3:
+                  type: column
+                  fields:
+
+                    header.contactinformation:
+                      type: tinymce
+                      label: Contact Information
+
+            attributes:
+              type: section
+              title: Data Attributes
+              underline: true
+
+            header.pgtdg:
+              unset@: true
+
+            header.pgtig:
+              unset@: true
+
+            header.abms:
+              unset@: true
+
+            header.step3:
+              unset@: true
+
+            header.usmle:
+              unset@: true
+
+            header.aoapgt:
+              label: AOA / PGT
+              type: text
+              size: medium
+            
+            header.required:
+              label: Required
+              type: text
+              size: medium
+
+
+            

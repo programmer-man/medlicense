@@ -1,8 +1,14 @@
-{% set states = page.collection %}
-{{ dump(page.collection) }}
+{% set states = {} %}
+
+{% for state in page.find('/licensure-information/state-licensure-requirements').children.order('title', 'asc') %}
+    {% set states = states|merge([state]) %}
+{% endfor %}
+
+    {{ dump(states) }}
+
 
 <section class="section">
     <h2>{{ header.title }}</h2>
-    <stateform :locationdata="{{ states|json_encode() }}" ></stateform>
+    <stateform :locationdata='{{ states|json_encode }}' ></stateform>
     <p><img src="{{ url("theme://images/united-states.png") }}" class="img-fluid" ></p>
 </section

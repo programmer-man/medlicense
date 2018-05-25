@@ -13,5 +13,6 @@ enablefeatureboxes: false
 content:
     items:
         - '@self.children'
+    url_taxonomy_filters: true
 ---
 

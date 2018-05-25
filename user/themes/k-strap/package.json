@@ -20,6 +20,7 @@
     "babel-polyfill": "^6.26.0",
     "bootstrap": "^4.1.1",
     "glob": "^7.1.2",
+    "jquery": "^1.9.1",
     "purgecss-webpack-plugin": "^0.20.1",
     "vue": "^2.5.16",
     "vue-template-compiler": "^2.5.15"
