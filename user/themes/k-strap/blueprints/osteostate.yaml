@@ -87,5 +87,13 @@ form:
               type: text
               size: medium
 
-
-            
+            header.enabled:
+              label: Activate/Hide Page
+              type: toggle
+              highlight: 1
+              help: 'Should the page be active?'
+              options:
+                1: Enable Link
+                2: Hide 
+              validate:
+                type: bool

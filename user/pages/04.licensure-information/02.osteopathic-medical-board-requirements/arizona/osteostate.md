@@ -2,6 +2,7 @@
 title: Arizona
 aoapgt: '1 year AOA/AMA PGT'
 required: 'AOA or AMA PGT Required'
+enabled: true
 visible: false
 ---
 
