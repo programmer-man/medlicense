@@ -4,8 +4,8 @@
             <div class="row">
                 <div class="form-group col">
                     <label for="inputPassword2" class="sr-only">Select State</label>
-                    <select v-model="state" class="custom-select">
-                        <option selected>Select State</option>
+                    <select v-model="state" class="custom-select" placeholder="Select state">
+                        <option selected value="">Select State</option>
                         <option v-for="location in locations" :key="location.slug" :value="location.route">{{ location.title }}</option>
                     </select>
                 </div>
@@ -21,14 +21,14 @@
     export default {
         props: {
             locationdata: {
-                type: Object,
-                default: {}
+                type: Array,
+                default: this.locationdata
             }
         },
         data() {
             return {
-                locations: {},
-                state: {}
+                locations: [],
+                state: ''
             }
         },
         mounted(){

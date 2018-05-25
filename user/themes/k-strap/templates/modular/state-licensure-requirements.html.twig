@@ -1,7 +1,12 @@
 {% set states = {} %}
 
 {% for state in page.find('/licensure-information/state-licensure-requirements').children.order('title', 'asc') %}
-    {% set states = states|merge([state]) %}
+    {% set states = states|merge([{
+        'title': state.title,
+        'route': state.route,
+        'slug': state.slug
+        }]) 
+    %}
 {% endfor %}
 
     {{ dump(states) }}

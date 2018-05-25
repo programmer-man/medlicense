@@ -12431,14 +12431,14 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony default export */ __webpack_exports__["default"] = ({
     props: {
         locationdata: {
-            type: Object,
-            default: null
+            type: Array,
+            default: this.locationdata
         }
     },
     data: function data() {
         return {
-            locations: {},
-            state: {}
+            locations: [],
+            state: ''
         };
     },
     mounted: function mounted() {
@@ -28971,6 +28971,9 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       expression: "state"
     }],
     staticClass: "custom-select",
+    attrs: {
+      "placeholder": "Select state"
+    },
     on: {
       "change": function($event) {
         var $$selectedVal = Array.prototype.filter.call($event.target.options, function(o) {
@@ -28984,7 +28987,8 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   }, [_c('option', {
     attrs: {
-      "selected": ""
+      "selected": "",
+      "value": ""
     }
   }, [_vm._v("Select State")]), _vm._v(" "), _vm._l((_vm.locations), function(location) {
     return _c('option', {
