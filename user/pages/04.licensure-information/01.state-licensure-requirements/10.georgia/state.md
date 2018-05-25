@@ -8,6 +8,7 @@ pgtig: '1 or 3 years. 1 year if Med. Sch. approved by California. 3 years if Med
 abms: 'No'
 step3: '3'
 usmle: '7 or 9 (Md/PhD)'
+visible: false
 ---
 
 <p>The Georgia Medical Board has a standard licensure process. However, due to internal issues with employee turn over, the Georgia Medical Board is experiencing extended licensure time frames. Their process should take between 2 1/2 to 3 1/2 months from the time the application is filed to the date where the licese is issued. However as of 4/26/2017 licensing is running 4 to 8 months. A temporary license is available once the GA Medical Board has acknowledged receipt of all required Applications. The temporary license will allow the physician to practice while awaiting the full board meeting at the beginning of each month. There is a temporary license available but because of the way it is structured, very few physicians are able to utilize it. The Temporary Georgia Medical License is only issued after the file is complete. The Temporary is only issued after the State sends written notice to the physician that the file is complete. Then the physician has to file the temp application with payment. This cannot be filed before the letter is received. Then the temporary license is issued a week or so later. By this time, the meeting has arrived and the license is issued. So the Temporary is very rarely utilized with the GA Med Board. All files have to be deemed complete 2-3 weeks before the Board meeting to be placed on the agenda.</p>

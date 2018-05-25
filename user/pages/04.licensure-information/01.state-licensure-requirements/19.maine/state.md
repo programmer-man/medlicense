@@ -8,6 +8,7 @@ pgtig: '3 years'
 abms: NA
 step3: '3  *Waiver required if more than 3'
 usmle: '7'
+visible: false
 ---
 
 <p>With the Maine Medical Board, MedLicense.com is averaging 3 to 8 months for the issuance of a Maine Medical License from the submission of the application to the Medical Board to the issuance of the Physician Maine Medical License. Our firm has licensed Physicians in Maine since April 2000. In an average year, MedLicense.com will handle between 20 to 30 Maine License Applications. We understand the process and what needs to be completed to have your application finalized. MedLicense.com knows when and how to submit the Applications and in what order to help insure that the Maine Medical Board doesn't lose verifications. Once the files are deemed complete by the Maine Medical Board the Maine Medical License is issued. The Maine Medical Board does not require a Physical Interview.</p>

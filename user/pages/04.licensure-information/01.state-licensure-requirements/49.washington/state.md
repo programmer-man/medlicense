@@ -8,6 +8,7 @@ pgtig: '2 years'
 abms: 'No'
 step3: '3'
 usmle: 7+
+visible: false
 ---
 
 <p>The Washington Medical Board has a typical process. Most of the physician's timeline is verified by the Washington Medical Board. It takes the Washington Medical Board 3 to 6 weeks to process applications after receipt. After submitting the Washington Medical License Application, the Washington Medical Board will process and notify the physician of the deficiencies necessary to complete the application within a couple of weeks. The Washington Medical Board provides some access to the licensure analysts. There are two licensure analyst which handle all physicians. This limited number of analyst can create some communication delays for the verifying of receipt of the required verifications which must be received by the Washington Medical Board. The staff is helpful and pleasant to work with. Mail loss is usually not a problem with the Washington Medical Board. This also assists in providing for an expedited process.</p>

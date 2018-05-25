@@ -8,6 +8,7 @@ pgtig: '1 year'
 abms: 'No'
 step3: '7 total USMLE attempts'
 usmle: '7'
+visible: false
 ---
 
 <p>The Wyoming Medical Board has a typical process. The Wyoming Medical Board does not verify employment and privileges. It takes the Wyoming Medical Board 1 to 2 weeks to process applications after receipt. After submitting the Wyoming Medical License Application, the Wyoming Medical Board can typically issue a temporary license to most physicians within a couple of weeks after filing the application. The Wyoming Medical Board provides full access to the licensure analysts. The staff is helpful and pleasant to to work with. MedLicense.com is experiencing licensure times of 2 1/2 to 4 months for the issuance of the Wyoming Medical License for most Physicians.</p>

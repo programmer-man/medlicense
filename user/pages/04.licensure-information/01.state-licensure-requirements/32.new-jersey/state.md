@@ -8,6 +8,7 @@ pgtig: '3 years'
 abms: 'No'
 step3: '5'
 usmle: '7'
+visible: false
 ---
 
 <p>With the New Jersey Medical Board, MedLicense.com is averaging 2 1/2 to 3 1/2 months for the issuance of a New Jersey Medical License from the submission of the application to the Medical Board to the issuance of the Physician New Jersey Medical Board. Our firm has licensed Physicians in New Jersey since April 2000. In an average year, MedLicense.com will handle between 40 to 55 New Jersey License Applications. We understand the process and what needs to be completed to have your application finalized. Once the files are deemed complete by the New Jersey Medical Board the New Jersey Medical License is issued. The New Jersey Medical Board does not require a Physical Interview.</p>

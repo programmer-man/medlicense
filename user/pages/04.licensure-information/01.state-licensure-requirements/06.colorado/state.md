@@ -8,6 +8,7 @@ pgtig: '3 years'
 abms: 'No'
 step3: None
 usmle: '7 or 10 (MD/PhD)'
+visible: false
 ---
 
 <p>Our Colorado Medical License Service can be quite expeditd if a physician qualifies for the Expedited License. If the applicant does not, then licensure process will be typical of most States. The Colorado Medical Board processes application quickly. After submitting the Colorado Medical License Application, the Colorado Medical Board will process and notify the physician about the deficiencies necessary to complete the application within a couple of weeks. The process with Colorado is typical. Colorado provides access to the licensure analysts. This allows quick confirmations of receipt of the required CO Med Board verifications. The staff is helpful and pleasant to work with. Mail loss typically is not a problem with the CO Medical Board. This also assists in providing for an expedited process.</p>

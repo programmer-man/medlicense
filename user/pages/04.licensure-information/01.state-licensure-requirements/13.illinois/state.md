@@ -8,6 +8,7 @@ pgtig: '1 year before 1988; 2 years after 1987'
 abms: 'No'
 step3: '5 attempts allowed on all steps combined - total'
 usmle: '7'
+visible: false
 ---
 
 <p>The Illinois Medical Board recently resolved its' budget crisis. They are back in business. However, because of the budget issue, the mail is approximately 4-6 weeks in arrears. This will translate into delays in processing the application and the verifications which will arrive after the application. Licensure time frames can be expected to take 90 to 120 days for most Illinois Medical License applications.</p>

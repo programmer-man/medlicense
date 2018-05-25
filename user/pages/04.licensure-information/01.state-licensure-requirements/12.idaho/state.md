@@ -8,6 +8,7 @@ pgtig: '3 years'
 abms: 'No'
 step3: '2 per step'
 usmle: '7 or 10 (MD/PhD)'
+visible: false
 ---
 
 <p>Idaho typically takes 60 to 120 days to issue a license from the date that the application is filed with the Board. All work history and employment for the past 5 years is required to be verified.</p>

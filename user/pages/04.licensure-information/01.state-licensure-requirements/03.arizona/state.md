@@ -8,6 +8,7 @@ pgtig: '3 years'
 abms: 'Yes - Exempt if Board Certified'
 step3: None
 usmle: '7 if first license  None if licensed'
+visible: false
 ---
 
 <p>With the Arizona Medical Board, MedLicense.com is averaging 40 to 90 days for the issuance of a Arizona Med License. (application submission to the AZ Medical Board to issuance of the Physician AZ Medical License). Our firm has licensed Physicians in Arizona since April 2000. In an average year, MedLicense.com will handle on average 50 Arizona Med License Applications. We understand the process and what needs to be completed to have your application finalized. MedLicense.com knows when to submit the Applications and in what order to help insure an expedited process. Whether you are a USA Graduate or a Graduate of a Foreign School, our process can move this arduous process through within a time period that will meet you needs. Your involvement in the process is kept to a minimum, with MedLicense.com handling the process. The fee for our AZ Med License Service is a one time payment of $599 ( practicing) or $489 (in training). Our packet is shipped to you after a 5-10 min consultation. Sign, notarize, and proof your application packet and then return it to MedLicense.com. Then MedLicense.com will submit the completed packet. Then the verification and follow up process begins Within 2 to 4 months after the submission, the license will typically be issued. All that you have to do is start the process with MedLicense.com.</p>

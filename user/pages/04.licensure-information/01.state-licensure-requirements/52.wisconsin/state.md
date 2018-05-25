@@ -8,6 +8,7 @@ pgtig: '2 years'
 abms: 'No'
 step3: 3+
 usmle: '10'
+visible: false
 ---
 
 <p>The Wisconsin Medical Board has a typical process. The Wisconsin Medical Board does verify employment and privileges. It takes the Wisconsin Medical Board 2 to 4 weeks to process applications after receipt. After submitting the Wisconsin Medical License Application, the Wisconsin Medical Board will process and notify the physician of the deficiencies necessary to complete the application within a couple of weeks through the online Status Report System. Verifications typically take 2-3 weeks to reach the physician's file after being received by the Wisconsin Medical Board's mail room. The Wisconsin Medical Board provides some access to the licensure analysts. The staff is helpful and pleasant to work with. Mail loss is usually not a problem with the Wisconsin Medical Board.</p>

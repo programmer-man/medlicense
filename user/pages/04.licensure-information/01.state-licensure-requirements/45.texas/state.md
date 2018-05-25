@@ -8,6 +8,7 @@ pgtig: '3 years'
 abms: 'Yes'
 step3: '3 attempts per step'
 usmle: '7'
+visible: false
 ---
 
 <p>With the Texas Medical Board, MedLicense.com is averaging 3 to 5 1/2 months for the issuance of a Texas Medical License for Domestic Graduates from the submission of the application to the Medical Board to the issuance of the Physician Texas Medical Board. Our firm has licensed Physicians in Texas since April 2000. In an average year, MedLicense.com will handle between 125 to 150 Texas Medical License Applications. We understand the process and what needs to be completed to have your application finalized. Once the files are deemed complete by the Texas Medical Board the Texas Medical License is issued. The Texas Medical Board will not require a Physical Interview.</p>

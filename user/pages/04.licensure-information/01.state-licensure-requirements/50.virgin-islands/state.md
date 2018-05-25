@@ -8,6 +8,7 @@ pgtig: '2 years'
 abms: 'No'
 step3: none
 usmle: 10+
+visible: false
 ---
 
 <p>The Virgin Islands Medical Board does not have a typical process. Most of the physician's timeline is verified by the Virgin Islands Medical Board. The Virgin Islands Medical Board does not process applications quickly. After submitting the Virgin Islands Medical License Application, the Virgin Islands Medical Board requires two unique processes be completed before the application can be considered. The first is the completion of the FCVS packet. Once the FCVS Packet is completed and delivered to the Virgin Islands Medical Board, the Physician then has to register for the SPEX Examination. The SPEX examination is required from all Physicians. Virgin Islands Medical Board does not provide available access to the licensure analysts. This prevents the verifying of receipt of the required verifications which must be received by the Virgin Islands Medical Board.</p>

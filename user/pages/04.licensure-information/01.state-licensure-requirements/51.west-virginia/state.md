@@ -8,6 +8,7 @@ pgtig: ' 3 years'
 abms: 'No'
 step3: '6'
 usmle: '10'
+visible: false
 ---
 
 <p>The West Virginia Medical Board has a typical process. The West Virginia Medical Board does NOT verify employment or privileges. It takes the West Virginia Medical Board 2 to 3 weeks to process applications after receipt. After submitting the West Virginia Medical License Application, the West Virginia Medical Board will process and notify the physician of the deficiencies necessary to complete the application within a couple of weeks. The West Virginia Medical Board provides excellent access to the licensure analysts.The staff is helpful and pleasant to work with. Mail loss is usually not a problem with the West Virginia Medical Board. This also assists in providing for an expedited process.</p>

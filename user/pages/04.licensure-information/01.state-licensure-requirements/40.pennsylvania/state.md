@@ -8,6 +8,7 @@ pgtig: '3 years'
 abms: 'No'
 step3: ' None'
 usmle: None
+visible: false
 ---
 
 <p>With the Pennsylvania Medical Board, MedLicense.com is averaging 2 to 3 1/2 months for the issuance of a Pennsylvania Medical License for Domestic Graduates from the submission of the application to the Medical Board to the issuance of the Physician Pennsylvania Medical Board. Our firm has licensed Physicians in Pennsylvania since April 2000. In an average year, MedLicense.com will handle between 45 to 55 Pennsylvania Medical License Applications. We understand the process and what needs to be completed to have your application finalized. Once the files are deemed complete by the Pennsylvania Medical Board the Pennsylvania Medical License is issued. The Pennsylvania Medical Board does not require a Physical Interview.</p>

@@ -24,6 +24,7 @@ name2: ''
 url2: ''
 name3: ''
 url3: ''
+visible: false
 ---
 
 <p>With the South Carolina Medical Board, MedLicense.com is averaging 3 to 5 1/2 months for the issuance of a South Carolina Medical License for Domestic Graduates from the submission of the application to the Medical Board to the issuance of the Physician South Carolina Medical Board. Our firm has licensed Physicians in South Carolina since April 2000. In an average year, MedLicense.com will handle between 30 to 35 South Carolina Medica License Applications. We understand the process and what needs to be completed to have your application finalized. Once the files are deemed complete by the South Carolina Medical Board the South Carolina Medical License is issued. The South Carolina Medical Board willrequire a Physical Interview in Columbia, SC before the South Carolina Medical License is issued.</p>

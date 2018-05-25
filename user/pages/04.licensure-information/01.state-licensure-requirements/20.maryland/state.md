@@ -8,6 +8,7 @@ pgtig: '2 years'
 abms: 'Yes - Exempt if Board Certified'
 step3: '4'
 usmle: '10'
+visible: false
 ---
 
 <p>With the Maryland Medical Board, MedLicense.com is averaging 2 1/2 to 3 1/2 months for the issuance of a Maryland Medical License from the submission of the application to the Medical Board to the issuance of the Physician Maryland Medical License. Our firm has licensed Physicians in Maryland since April 2000. In an average year, MedLicense.com will handle between 25 to 35 Maryland License Applications. We understand the process and what needs to be completed to have your application finalized. MedLicense.com knows when and how to submit the Applications and in what order to help insure that the Maryland Medical Board doesn't lose verifications. Once the files are deemed complete by the Maryland Medical Board the Maryland Medical License is issued. The Maryland Medical Board does not require a Physical Interview.</p>

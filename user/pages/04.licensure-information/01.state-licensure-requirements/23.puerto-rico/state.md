@@ -7,6 +7,7 @@ pgtig: '1 year'
 abms: 'No'
 step3: None
 usmle: '7'
+visible: false
 ---
 
 <p>With MedLicense.com Physician License Service there are no worries or headaches. The online form will take 15 minutes to fill out and then you will receive the signature forms within 5 business days. Return the signature forms to MedLicense.com along with any other items required in our simple check list. MedLicense.com will file the applications with the Puerto Rico State Medical Board directly. Puerto Rico requires two separate applications. One for the General License and another in order to practice in a Specialty. After the required medical board applications are filed, all third party primary source confirmations will be requested. MedLicense.com will follow up with each verifying source until the Puerto Rico Medical Board confirms that your license is complete and ready to be issued. MedLicense.com handles all the administrative leg work and proofing of the licensure application process. You can concentrate on your patients while MedLicense.com handles all the small, timely details.</p>
@@ -16,9 +17,8 @@ usmle: '7'
 <li>Travel to Puerto Rico 5 to 8 times during a 3 to 6 month time frame</li>
 <li>Hire MedLicense.com to handle the process for you</li>
 </ul>
-<p>We have the people on the ground in Puerto Rico who can make this process work for you. No one else does. In fact other "Licensing Companies" are forced to send their Physicians to MedLicense.com because they lack the resources, experience, and competency level to handle a process such as is presented by the Puerto Rico Medical Board</p>
-<p>If you need tov erify a Puerto Rico Medical License, please visit our article on this process: Verify a Puerto Rico Medical License</p>
-<h2 id="mcetoc_1cdqi8mdc0">Additional Puerto Rico Medical Board Licensing Information:</h2>
+<p>We have the people on the ground in Puerto Rico who can make this process work for you. No one else does. In fact other "Licensing Companies" are forced to send their Physicians to MedLicense.com because they lack the resources, experience, and competency level to handle a process such as is presented by the Puerto Rico Medical Board.</p>
+<h2 id="mcetoc_1ce9v6mf90">Additional Puerto Rico Medical Board Licensing Information:</h2>
 <ul>
 <li>The fee paid to Puerto Rico is $1250.00</li>
 <li>You will need two licensed Puerto Rico Physicians to complete the Puerto Rico Medical Board Reference Form. The best source for this requirement typically can be found in the facility/employer in Puerto Rico which is requesting that you apply for a license with the Puerto Rico Medical Board</li>
@@ -26,3 +26,27 @@ usmle: '7'
 <li>The Puerto Rico Medical Board is very inefficient. As such they lose 20-25% of the mail sent to them. This causes delays. The process grinds slowly with this medical board and as such has to be built into the expected time frame for issuance of the Medical License</li>
 <li>The Fee which MedLicense.com charges for Puerto Rico is $1699.00. This is double the fee for the Licensure process for any other Medical Board in the USA. The reason for this is that we have a much higher base line cost to handle the process for Puerto Rico due to the unique requirements of the Puerto Rico Medical Board process.</li>
 </ul>
+<h2 id="mcetoc_1ce9v6mf91">License Verifications Sent By Mail from the Medical Board:</h2>
+<h3 id="mcetoc_1ce9vgjdl2">Used for State Medical Licensing Applications</h3>
+<p>We are now offering Direct License verification of Puerto Rico Medical Licenses and Examination Scores to Physicians, Hospitals, and Employers. To initiate this process here are the steps which must be taken: 1- The Physicians Puerto Rico License # 2- Submit the online service request 3 - Mail in the Signed/Dated form/request from the Physician.</p>
+<p>In order to complete this transaction you must provide the Physician's Medical License Certificate - This Document is Titled (click here to see an example of this Certificate) - "Certification of Registry and Medical Education". If you do not have a copy of the certificate, you can provide us with the Registry Number.</p>
+<p>Once all three are received, the request will be forwarded to the Puerto Rico Medical Board. Weekly updates will be given as to the status of the request. If the verification is lost in transit from Puerto Rico to the Medical Board or Institution who will receive the verification, it will be resent at no charged to you. Here is our price matrix for Puerto Rico Based Services is as follows:</p>
+<ul>
+<li>Puerto Rico License Verification by Mail $179.00</li>
+<li>Puerto Rico License Verification by Email $59.00</li>
+<li>Puerto Rico Examination Scores $179.00</li>
+<li>PR Hospital/Employment Verifications $149.00</li>
+<li>PR College/Med School Verifications $179.00</li>
+</ul>
+<h2 id="mcetoc_1ce9vgjdl3">License Verifications Sent by E-Mail:</h2>
+<h3 id="mcetoc_1ce9vgjdl4">Used for Employment, Hospital, Insurance Credentialing</h3>
+<p>The cost of this service is $59.00. The turn around time is 24 hours. All submitted orders are final and no refunds will be given.</p>
+<h3 id="mcetoc_1ce9vgjdl5">How does our 24 hour Emailed Puerto Rico Verification Work?</h3>
+<ul>
+<li>Submit your order through our website</li>
+<li>Email a copy of the Doctor's Physician's Medical License Certificate - "Certification of Registry and Medical Education"</li>
+<li>MedLicense.com will access the Puerto Rico system and email the direct source/real time verification to your email</li>
+<li><strong>Most State Medical Boards will not accept an emailed verification from PR. For State Licensing Applications - you need the $179 service. The $59 service is primarly utilized for Employment, Insurance, and Hospital Credentialing</strong></li>
+</ul>
+<p><a class="btn btn-secondary" href="https://www.secure-access.net/~medlicense/maaform/ccprlicensecertification.html">Order a Puerto Rico License Verification <em class="fa fa-sm fa-play" aria-hidden="true">&nbsp;</em></a>&nbsp;</p>
+<p><strong>You must provide your Puerto Rico License Number &amp; Registry Number with the order form. If you do not provide this, the order will not be processed.</strong></p>
