@@ -1,5 +1,6 @@
 ---
 title: Home
+media_order: 'Sample PR certification of registry.pdf'
 sidebar:
     -
         route: /_partials/_three-easy-steps
