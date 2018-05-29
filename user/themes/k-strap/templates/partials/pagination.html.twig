@@ -1,0 +1,19 @@
+{{ dump(pagination) }}
+
+{% if pagination %}
+
+    <nav aria-label="blog navigation">
+    <ul class="pagination">
+        <li class="item">
+            <a class="page-link" href="{{ base_url }}">First</a>
+        </li>
+        {% for items in pagination %}
+            {% set numpages = items.number %}
+            <li class="item">
+                <a class="page-link" href="{{ base_url }}{{ items.url }}">{{items.number}}</a>
+            </li>
+        {% endfor %}
+    </ul>
+    </nav>
+
+{% endif %}

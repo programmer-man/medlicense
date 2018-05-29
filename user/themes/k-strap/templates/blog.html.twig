@@ -16,11 +16,11 @@
                         {% endfor %}
                         </div>
 
-                        {% if show_pagination and config.plugins.pagination.enabled and collection.params.pagination %}
+                        {# {% if show_pagination and config.plugins.pagination.enabled and collection.params.pagination %} #}
                             <div id="listing-footer">
-                                {% include 'partials/pagination.html.twig' with {base_url: page.url, pagination: collection.params.pagination} %}
+                                {% include 'partials/pagination.html.twig' with {'base_url':page.url, 'pagination':collection.params.pagination} %}
                             </div>
-                        {% endif %}
+                        {# {% endif %} #}
 
                     </div>
                     <div class="col-md-4">
