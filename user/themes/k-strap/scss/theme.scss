@@ -204,7 +204,7 @@ body {
       }
 
       &::before {
-        content: counter(list-counter);
+        content: counter(list-counter) ":";
         counter-increment: list-counter;
         display: inline-flex;
         width: 1rem;
@@ -261,6 +261,16 @@ body {
       font-size: 2.5em;
       line-height: 1.1em;
       margin-bottom: 1rem;
+    }
+
+    a {
+      color: $gray-700;
+      text-decoration: underline;
+    }
+
+    a.btn {
+      color: $white;
+      text-decoration: none;
     }
 
     &:first-child {
