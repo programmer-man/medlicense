@@ -20,7 +20,7 @@ if (mix.inProduction()) {
             new purgeCss({
                 paths: glob.sync([
                     path.join(__dirname, 'js/**/*.vue'),
-                    path.join(__dirname, 'js/**/*.vue')
+                    path.join(__dirname, 'templates/**')
                 ]),
                 extractors: [
                     {
